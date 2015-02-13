@@ -11,6 +11,10 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <sonar.language>java</sonar.language>
+    <!-- MySQL DB -->
+    <sonar.jdbc.url>
+      jdbc:mysql://localhost:9000/sonar?useUnicode=true&amp;characterEncoding=utf8
+    </sonar.jdbc.url>
   </properties>
 
 </project>
