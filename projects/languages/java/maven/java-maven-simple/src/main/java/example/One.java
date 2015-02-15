@@ -10,4 +10,8 @@ public class One {
   public void uncoveredMethod() {
     System.out.println(foo());
   }
+  
+  public void uncoveredMethod1() {
+    System.out.println(foo());
+  }
 }
